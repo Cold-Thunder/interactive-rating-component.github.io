@@ -1,0 +1,25 @@
+@media (max-width:375px){
+    body{
+        width:375px;
+    }
+    .rating{
+        width:375px;
+    }
+    .star, .btn{
+        width:40px;
+        height:40px;
+    }
+    .btn{
+        margin-right:7%;
+    }
+    .buttons{
+        margin-top:30px;
+    }
+    .card, .thank-card{
+        width:280px;
+    }
+
+    footer{
+        width:375px;
+    }
+}

@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:1440px;
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+}
+.star, .btn, .buttons, .sub{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+button{
+    cursor:pointer;
+}
+.star, .btn{
+    width:50px;
+    height:50px;
+    border:none;
+    border-radius: 50%;
+    font-size:16px;
+}
+.star{
+    background-color:rgb(105, 123, 148, 0.4);
+}
+.btn{
+    margin-right: 10%;
+    color:hsl(217, 12%, 63%);
+    transition:all 0.3s ease-in;
+}
+.btn:last-of-type{
+    margin-right:0;
+}
+.btn:hover{
+    background-color: hsl(25, 97%, 53%);
+    color:white;
+}
+.star{
+    margin-top:33px;
+}
+.rating{
+    height:100vh;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.card{
+    width:410px;
+    height:410px;
+    background-color: hsl(213, 19%, 18%);
+    padding-left:33px;
+    padding-right: 40px;
+    border-radius:20px;
+}
+.card-text{
+    justify-content: center;
+    align-items: center;
+    height:145px;
+}
+.card h1{
+    color:hsl(0, 0%, 100%);
+    margin-top:30px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.card p{
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    width:90%;
+    height:118px;
+    font-size:16px;
+    color:hsl(217, 12%, 63%);
+    padding-right:40px;
+    line-height: 25px;
+    margin-bottom:30px;
+}
+.sub{
+    margin-top:35px;
+    padding-bottom:30px;
+}
+.sub button{
+    width:100%;
+    height:45px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 30px;
+    color:white;
+    font-size: 15px;
+    font-weight:bold;
+    letter-spacing: 1px;
+    transition:all 0.3s ease-in;
+}
+.sub button:hover{
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+}
+
+/* thank you sextion starts here */
+.thank-card, .thank-img, .rate-info,.rate{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.thank-card{
+    width:410px;
+    height:410px;
+    background-color: hsl(213, 19%, 18%);
+    padding-left:33px;
+    padding-right: 40px;
+    border-radius:20px;
+}
+.thank{
+    width:100%;
+}
+
+.thank-img{
+    height:185px;
+}
+
+.rate{
+    background-color:rgb(105, 123, 148, 0.4);
+    width:195px;
+    height:30px;
+    border-radius:20px;
+}
+.rate-info-text{
+    color:hsl(25, 97%, 53%);
+}
+
+.thank-text-section{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height:195px;
+}
+.thank-text{
+    text-align: center;
+}
+.thank-text h1{
+    color:white;
+    margin-bottom:18px;
+}
+.thank-text p{
+    width:88%;
+    line-height: 25px;
+    color:hsl(217, 12%, 63%);
+}
+
+/* footer starts here  */
+.attribution {
+    padding-top:20px;
+    padding-bottom:20px;
+    font-size: 11px;
+    text-align: center;
+    color:white;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+
+
+  /* click effects here  */
+  .not-checked{
+    background-color:rgb(105, 123, 148, 0.4);
+  }
+  .checked{
+    background-color: hsl(217, 12%, 63%);
+    color:white;
+  }
